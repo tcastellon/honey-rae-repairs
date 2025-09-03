@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { User } from "../../users/User"
+import { User } from "../users/User"
 import { getNonStaffUsers } from "../../services/userService"
 import "./Customers.css"
 
