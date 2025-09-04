@@ -37,10 +37,10 @@
       "isStaff": true
     },
     {
+      "id": 7,
       "email": "jeremy@bakker.com",
       "fullName": "Jeremy Bakker",
-      "isStaff": true,
-      "id": 7
+      "isStaff": true
     }
   ],
   "customers": [
@@ -81,6 +81,12 @@
       "specialty": "Printer Repair",
       "rate": 29.45,
       "userId": 6
+    },
+    {
+      "id": 4,
+      "specialty": "Network Setup",
+      "rate": 32.50,
+      "userId": 7
     }
   ],
   "serviceTickets": [
@@ -106,18 +112,18 @@
       "dateCompleted": "2023-08-12T03:06:27.975Z"
     },
     {
+      "id": 4,
       "userId": 1,
       "description": "Desktop wont turn on",
       "emergency": false,
-      "dateCompleted": "",
-      "id": 4
+      "dateCompleted": ""
     },
     {
+      "id": 5,
       "userId": 3,
       "description": "Speaker phone does not work on iPhone",
       "emergency": true,
-      "dateCompleted": "",
-      "id": 5
+      "dateCompleted": ""
     },
     {
       "id": 6,
@@ -126,12 +132,12 @@
       "emergency": false,
       "dateCompleted": ""
     },
-    {
+    { 
+      "id": 7,
       "userId": 2,
       "description": "Router is broken",
       "emergency": true,
-      "dateCompleted": "",
-      "id": 7
+      "dateCompleted": ""
     }
   ],
   "employeeTickets": [
@@ -141,19 +147,20 @@
       "serviceTicketId": 1
     },
     {
-      "id": 3,
+      "id": 2,
       "employeeId": 1,
       "serviceTicketId": 4
     },
     {
+      "id": 3,
       "employeeId": 2,
-      "serviceTicketId": 2,
-      "id": 4
+      "serviceTicketId": 2
+      
     },
     {
+      "id": 4,
       "employeeId": 2,
-      "serviceTicketId": 7,
-      "id": 6
+      "serviceTicketId": 7
     }
   ]
 }
