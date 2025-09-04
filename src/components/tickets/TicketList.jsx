@@ -14,7 +14,6 @@ export const TicketList = () => {
   useEffect(() => {
     getAllTickets().then((ticketsArray) => {
       setAllTickets(ticketsArray)
-      console.log("tickets set!")
     })
   }, []) //Only runs on initial render of component
 

@@ -17,6 +17,7 @@ export const TicketFilterBar = ({ setShowEmergencyOnly, setSearchTerm }) => {
                 onChange={(event) => {
                     setSearchTerm(event.target.value)
                 }}
+                name="ticketsearch"
                 type="text"
                 placeholder="Search Tickets"
                 className="ticket-search"
