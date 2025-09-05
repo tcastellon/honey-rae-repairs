@@ -12,7 +12,8 @@ export const EmployeeDetails = () => {
             const employeeObj = data[0]
             setEmployee(employeeObj)
         })
-    }, [employeeId])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
 
     return <section className="employee">
         <header className="employee-header">{employee.user?.fullName}</header>

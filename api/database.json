@@ -66,8 +66,8 @@
   "employees": [
     {
       "id": 1,
-      "specialty": "Macbook Pros",
-      "rate": "100",
+      "specialty": "Macbooks",
+      "rate": "110",
       "userId": 4
     },
     {
@@ -109,7 +109,7 @@
       "userId": 2,
       "description": "Dropped iPhone in toilet",
       "emergency": true,
-      "dateCompleted": "2023-08-12T03:06:27.975Z"
+      "dateCompleted": ""
     },
     {
       "id": 4,
